@@ -8,7 +8,7 @@
 					A public vehicle is initialized for all (+JIP) but the server
 	Author: 		Benny
 	Creation Date:	16-09-2013
-	Revision Date:	12-05-2018
+	Revision Date:	29-09-2018
 
   # PARAMETERS #
     0	[String]: The type of vehicle to create
@@ -69,6 +69,7 @@ _gun_config = missionNamespace getVariable ( format [ "CTI_LOADOUT_%1_MNT_OPTION
 if (
 ( 	((typeOf _vehicle) == "O_APC_Tracked_02_AA_F")
 	|| ((typeOf _vehicle) == "B_APC_Tracked_01_AA_F")
+	|| ((typeOf _vehicle) == "B_T_APC_Tracked_01_AA_F")
 	|| _type isKindOf "Air")
 && (missionNamespace getVariable "CTI_AC_ENABLED")>0
 && _side != CTI_RESISTANCE_ID

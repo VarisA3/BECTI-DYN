@@ -15,6 +15,7 @@
  *                          Re-introduced Hellcat (Armed)
  * 12/May/2018 - Yoshi_E - New Templates for all Units
 						 - Rework of inital code
+ * 29/Sep/2018 - Varis - Poking around for loadouts test
  * 
  *
  *
@@ -86,6 +87,53 @@ CTI_LOADOUT_UNARMED_FLARES =
 // Experimental loadouts for AA tanks
 // ***************************
 //Bluefor
+
+// ## Cannon only tank by Varis !!!
+
+CTI_LOADOUT_B_T_APC_Tracked_01_AA_F_MNT_OPTIONS =
+[	
+	[
+		"Standard - configuration" ,
+		"default",
+		[	
+			[ 	
+				["autocannon_35mm",
+					[
+						[ "680Rnd_35mm_AA_shells_Tracer_Green" , "2000"]
+					]
+				]
+			],	
+			[ 	
+				["autocannon_35mm",
+					[
+						[ "680Rnd_35mm_AA_shells_Tracer_Green" , "2000"]
+					]
+				]
+			],		
+			["FakeHorn" , //Dummy weapon
+			[
+						[ "WeaponSafty" , "0", [-1]]
+			]
+			],	
+			["FakeHorn" , //Dummy weapon
+				[
+						[ "WeaponSafty" , "0", [-1]]
+		]
+			],	
+			[ 	
+				["SmokeLauncher",
+					[
+						[ "SmokeLauncherMag" , "1000", [0,0]]
+					]
+				]
+			]
+		]
+	]
+];
+
+//diag_log Format ["empty weps %1", (CTI_AC_GET_STANDARD_EMPTY_LOADOUT B_T_APC_Tracked_01_AA_F) select 0];
+
+//CTI_LOADOUT_B_APC_Tracked_01_AA_F_MNT_OPTIONS = (CTI_AC_GET_STANDARD_EMPTY_LOADOUT B_APC_Tracked_01_AA_F);
 
 CTI_LOADOUT_B_APC_Tracked_01_AA_F_MNT_OPTIONS =
 [	
@@ -1035,6 +1083,8 @@ CTI_LOADOUT_B_Plane_Fighter_01_Stealth_F_MNT_OPTIONS =
 // ***************************
 // Heli - AH-9 Pawnee
 // ***************************
+
+// ## Varis: adding countermeasures and more loadout options
 CTI_LOADOUT_B_Heli_Light_01_dynamicLoadout_F_MNT_OPTIONS =
 [
 	[
@@ -1052,11 +1102,12 @@ CTI_LOADOUT_B_Heli_Light_01_dynamicLoadout_F_MNT_OPTIONS =
 				["PylonRight1" , 
 					[
 						[ "PylonRack_12Rnd_missiles" , "2000"],
-						//[ "PylonRack_1Rnd_AAA_missiles" , "4000"],
-						//[ "PylonRack_1Rnd_LG_scalpel" , "5000"],
+						[ "PylonRack_1Rnd_AAA_missiles" , "4000"],
+						[ "PylonRack_1Rnd_LG_scalpel" , "5000"],
 						[ "PylonRack_7Rnd_Rocket_04_HE_F" , "1000"],
-						[ "PylonRack_7Rnd_Rocket_04_AP_F" , "1000"]
-						//[ "PylonRack_12Rnd_PG_missiles" , "8000"],
+						[ "PylonRack_7Rnd_Rocket_04_AP_F" , "1000"],
+						[ "PylonRack_12Rnd_PG_missiles" , "8000"],
+						[ "PylonWeapon_300Rnd_20mm_shells", "1000"]					
 					]
 				]
 			],	
@@ -1064,11 +1115,21 @@ CTI_LOADOUT_B_Heli_Light_01_dynamicLoadout_F_MNT_OPTIONS =
 				["PylonLeft1" , 
 					[
 						[ "PylonRack_12Rnd_missiles" , "2000"],
-						//[ "PylonRack_1Rnd_AAA_missiles" , "4000"],
-						//[ "PylonRack_1Rnd_LG_scalpel" , "5000"],
+						[ "PylonRack_1Rnd_AAA_missiles" , "4000"],
+						[ "PylonRack_1Rnd_LG_scalpel" , "5000"],
 						[ "PylonRack_7Rnd_Rocket_04_HE_F" , "1000"],
-						[ "PylonRack_7Rnd_Rocket_04_AP_F" , "1000"]
-						//[ "PylonRack_12Rnd_PG_missiles" , "8000"],
+						[ "PylonRack_7Rnd_Rocket_04_AP_F" , "1000"],
+						[ "PylonRack_12Rnd_PG_missiles" , "8000"]
+					]
+				]
+			],
+			[
+				[ "CMFlareLauncher" ,
+					[
+						[ "168Rnd_CMFlare_Chaff_Magazine" , "1000" , [-1] ] ,
+						[ "120Rnd_CMFlare_Chaff_Magazine" , "500" , [-1] ] ,
+						[ "192Rnd_CMFlare_Chaff_Magazine" , "1500" , [-1] ],
+						//[ "240Rnd_CMFlare_Chaff_Magazine" , "2000" , [-1] ]
 					]
 				]
 			]

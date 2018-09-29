@@ -5,7 +5,7 @@
 	Description:	Rearm a vehicle and it's turrets
 	Author: 		Benny
 	Creation Date:	19-09-2013
-	Revision Date:	14-10-2013
+	Revision Date:	29-09-2018
 
   # PARAMETERS #
     0	[Object]: The vehicle
@@ -45,6 +45,7 @@ if(((_t_side) call CTI_CO_FNC_GetSideUpgrades) select CTI_UPGRADE_DATA == 1) the
 //enable for && (!(_vehicle isKindOf "O_Plane_Fighter_02_F")) && (!(_vehicle isKindOf "B_Plane_Fighter_01_F")) && (!(_vehicle isKindOf "I_Plane_Fighter_04_F"))
 if (	(((typeOf _vehicle) == "O_APC_Tracked_02_AA_F") 
 		|| ((typeOf _vehicle) == "B_APC_Tracked_01_AA_F")
+		|| ((typeOf _vehicle) == "B_T_APC_Tracked_01_AA_F")
 		|| _vehicle isKindOf "Air") 
 		&& (missionNamespace getVariable "CTI_AC_ENABLED")>0
 		&& CTI_isCLient) then
