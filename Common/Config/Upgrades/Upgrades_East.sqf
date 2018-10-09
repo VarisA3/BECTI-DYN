@@ -27,10 +27,10 @@ _t=_t+			[[90*CTI_UPGRADE_RATIO]];
 
 _l=_l+			[[localize "STR_Up_Heavy_Factory", localize "STR_Up_Heavy_Factory_Descr"]];
 _a=_a	+			[true];
-_c=_c +			[[10000,50000]];
-_lev=_lev+	[2];
+_c=_c +			[[6000,8000,30000]];
+_lev=_lev+	[3];
 _lin=_lin+	[[[CTI_UPGRADE_LIGHT,1],[]]];
-_t=_t+			[[180*CTI_UPGRADE_RATIO,240*CTI_UPGRADE_RATIO]];
+_t=_t+			[[40*CTI_UPGRADE_RATIO,120*CTI_UPGRADE_RATIO,240*CTI_UPGRADE_RATIO]];
 
 _l=_l+			[[localize "STR_Up_Aircraft_Factory", localize "STR_Up_Aircraft_Factory_Descr"]];
 _a=_a	+			[true];
@@ -89,10 +89,10 @@ _t=_t+			[[20*CTI_UPGRADE_RATIO, 40*CTI_UPGRADE_RATIO, 60*CTI_UPGRADE_RATIO]];
 
 _l=_l+			[[localize "STR_Up_Tactical_Hud", localize "STR_Up_Tactical_Hud_Descr"]];
 _a=_a	+			[True];
-_c=_c +			[[9000]];
+_c=_c +			[[6000]];
 _lev=_lev+	[1];
 _lin=_lin+	[[[CTI_UPGRADE_GEAR,3]]];
-_t=_t+			[[120*CTI_UPGRADE_RATIO]];
+_t=_t+			[[60*CTI_UPGRADE_RATIO]];
 
 _l=_l+			[[localize "STR_Up_Towns_Occupation", localize "STR_Up_Towns_Occupation_Descr"]];
 _a=_a	+			[true];

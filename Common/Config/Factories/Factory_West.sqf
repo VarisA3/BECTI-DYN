@@ -117,6 +117,7 @@ _u = _u  	+ ["B_APC_Wheeled_01_cannon_F"];
 _u = _u  	+ ["B_AFV_Wheeled_01_cannon_F"];
 _u = _u  	+ ["B_AFV_Wheeled_01_up_cannon_F"];
 _u = _u		+ ["B_APC_Tracked_01_AA_F"];
+_u = _u		+ ["B_T_APC_Tracked_01_AA_F"];
 _u = _u		+ ["B_MBT_01_cannon_F"];
 _u = _u		+ ["B_MBT_01_TUSK_F"];
 _u = _u		+ ["B_MBT_01_arty_F"];
@@ -186,5 +187,8 @@ _u = _u		+ ['B_Quadbike_01_F'];
 _u = _u		+ ['B_G_Offroad_01_F'];
 _u = _u		+ ['B_G_Offroad_01_armed_F'];
 _u = _u		+ ['B_G_Offroad_01_AT_F'];
+_u = _u		+ ['B_LSV_01_armed_F'];
+_u = _u		+ ["B_APC_Tracked_01_rcws_F"];
+
 
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_FTOWN], _u];

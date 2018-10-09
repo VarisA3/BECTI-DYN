@@ -2194,16 +2194,16 @@
 				<Russian>Завод Тяжелой Техники</Russian>
 			</Key>
 			<Key ID="STR_Up_Heavy_Factory_Descr">
-				<Original>Unlock armored units (1::HEAVY TANKS, 2::ARTILLERY TANKS)</Original>
-				<Russian>Разблокировать бронированные устройства (1 :: ТЯЖЕЛЫЕ ТАНКИ, 2: АРТИЛЛЕРЕЯ)</Russian>
+				<Original>Unlock armored units (1::BETTER AA TANKS, 2::HEAVY TANKS, 3::ARTILLERY TANKS)</Original>
+				<Russian>TODO Разблокировать бронированные устройства (1 :: ТЯЖЕЛЫЕ ТАНКИ, 2: АРТИЛЛЕРЕЯ)</Russian>
 			</Key>
 			<Key ID="STR_Up_Aircraft_Factory">
 				<Original>Factory: Aircraft Factory</Original>
 				<Russian>Завод Авиа Техники</Russian>
 			</Key>
 			<Key ID="STR_Up_Aircraft_Factory_Descr">
-				<Original>Unlock better aircraft units</Original>
-				<Russian>Разблокировать новую авиа технику</Russian>
+				<Original>Unlock air units: (1::VTOL AND ARMED HELIS, 2::ATTACK HELIS AND UAV, 3::CAS JETS AND ARMED VTOL, 4::FIGHTER JETS AND STEALTH UAV)</Original>
+				<Russian>TODO Разблокировать новую авиа технику</Russian>
 			</Key>
 			<Key ID="STR_Up_AAF_technologies">
 				<Original>Factory: AAF technologies</Original>
@@ -2266,8 +2266,8 @@
 				<Russian>Оккупация городов</Russian>
 			</Key>
 			<Key ID="STR_Up_Towns_Occupation_Descr">
-				<Original>Allows the spawning of occupation forces which will defend friendly towns against any attackers.&lt;br/&gt;It will also improve the income generation in non-occupied towns</Original>
-				<Russian>Позволяет создать войска для защиты захваченных городов от нападающих.&lt;br/&gt;Также повышает доход в ещё незахваченных городах</Russian>
+				<Original>Allows the spawning of occupation forces which will defend friendly towns against any attackers.&lt;br/&gt;Towns without friendly forces in them generate much reduced income - this upgrade will also reduce the income penalty in non-occupied towns.</Original>
+				<Russian>TODO Позволяет создать войска для защиты захваченных городов от нападающих.&lt;br/&gt;Также повышает доход в ещё незахваченных городах</Russian>
 			</Key>
 			<Key ID="STR_Up_Satellite">
 				<Original>Other: Satellite</Original>

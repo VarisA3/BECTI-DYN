@@ -39,37 +39,37 @@ class Params {
 		title = $STR_CTI_BASE_STARTUP_PLACEMENT;
 		values[] = {2000,3000,4000,5000,6000,7000,8000,9000,10000,12000,15000,20000};
 		texts[] = {"2 KM","3 KM","4 KM","5 KM","6 KM","7 KM","8 KM","9 KM","10 KM","12 KM","15 KM","20 KM"};
-		default = 15000;
+		default = 10000;
 	};
 	class CTI_ECONOMY_INCOME_CYCLE {
 		title = $STR_CTI_ECONOMY_INCOME_CYCLE;
-		values[] = {15,30,45,60,90,120,160,190};
+		values[] = {10,30,45,60,90,120,160,190};
 		texts[] = {"00:15 Minute","00:30 Minute","00:45 Minute","01:00 Minute","01:30 Minutes","02:00 Minutes","02:30 Minutes","03:00 Minutes"};
-		default = 45;
+		default = 30;
 	};
 	class CTI_ECONOMY_STARTUP_FUNDS_EAST_COMMANDER {
 		title = $STR_CTI_ECONOMY_STARTUP_FUNDS_EAST_COMMANDER;
-		values[] = {9000,15000,20000,25000,30000,35000,40000,45000,50000,60000};
-		texts[] = {"$9000","$15000","$20000","$25000","$30000","$35000","$40000","$45000","$50000","$60000"};
-		default = 15000;
+		values[] = {9000,15000,20000,25000,30000,35000,40000,45000,90000,150000};
+		texts[] = {"$9000","$15000","$20000","$25000","$30000","$35000","$40000","$45000","$90000","$150000"};
+		default = 90000;
 	};
 	class CTI_ECONOMY_STARTUP_FUNDS_EAST {
 		title = $STR_CTI_ECONOMY_STARTUP_FUNDS_EAST;
-		values[] = {900,1500,2400,3200,6000,8000,10000,12500,15000,20000};
-		texts[] = {"$900","$1500","$2400","$3200","$6000","$8000","$10000","$12500","$15000","$20000"};
-		default = 2400;
+		values[] = {900,1500,2400,3200,6000,8000,10000,12500,15000,50000};
+		texts[] = {"$900","$1500","$2400","$3200","$6000","$8000","$10000","$12500","$15000","$50000"};
+		default = 6000;
 	};
 	class CTI_ECONOMY_STARTUP_FUNDS_WEST_COMMANDER {
 		title = $STR_CTI_ECONOMY_STARTUP_FUNDS_WEST_COMMANDER;
-		values[] = {9000,15000,20000,25000,30000,35000,40000,45000,50000,60000};
-		texts[] = {"$9000","$15000","$20000","$25000","$30000","$35000","$40000","$45000","$50000","$60000"};
-		default = 15000;
+		values[] = {9000,15000,20000,25000,30000,35000,40000,45000,90000,150000};
+		texts[] = {"$9000","$15000","$20000","$25000","$30000","$35000","$40000","$45000","$90000","$150000"};
+		default = 90000;
 	};
 	class CTI_ECONOMY_STARTUP_FUNDS_WEST {
 		title = $STR_CTI_ECONOMY_STARTUP_FUNDS_WEST;
-		values[] = {900,1500,2400,3200,6000,8000,10000,12500,15000,20000};
-		texts[] = {"$900","$1500","$2400","$3200","$6000","$8000","$10000","$12500","$15000","$20000"};
-		default = 2400;
+		values[] = {900,1500,2400,3200,6000,8000,10000,12500,15000,50000};
+		texts[] = {"$900","$1500","$2400","$3200","$6000","$8000","$10000","$12500","$15000","$50000"};
+		default = 6000;
 	};
 	class CTI_ECONOMY_TOWNS_OCCUPATION {
 		title = $STR_CTI_ECONOMY_TOWNS_OCCUPATION;
@@ -99,7 +99,7 @@ class Params {
 		title = $STR_CTI_RESPAWN_TIMER;
 		values[] = {15,20,25,30,35,40,45,50,55,60};
 		texts[] = {"15 Seconds","20 Seconds","25 Seconds","30 Seconds","35 Seconds","40 Seconds","45 Seconds","50 Seconds","55 Seconds","60 Seconds"};
-		default = 30;
+		default = 10;
 	};
 	class CTI_TOWNS_OCCUPATION {
 		title = $STR_CTI_TOWNS_OCCUPATION;
@@ -111,25 +111,25 @@ class Params {
 		title = $STR_CTI_VEHICLES_AIR_FFAR;
 		values[] = {0,1,2};
 		texts[] = {$STR_CTI_DISABLED,$STR_CTI_ENABLED_UPGRADE,$STR_CTI_ENABLED};
-		default = 1;
+		default = 2;
 	};
 	class CTI_VEHICLES_AIR_AA {
 		title = $STR_CTI_VEHICLES_AIR_AA;
 		values[] = {0,1,2};
 		texts[] = {$STR_CTI_DISABLED,$STR_CTI_ENABLED_UPGRADE,$STR_CTI_ENABLED};
-		default = 1;
+		default = 2;
 	};
 	class CTI_VEHICLES_AIR_AT {
 		title = $STR_CTI_VEHICLES_AIR_AT;
 		values[] = {0,1,2};
 		texts[] = {$STR_CTI_DISABLED,$STR_CTI_ENABLED_UPGRADE,$STR_CTI_ENABLED};
-		default = 1;
+		default = 2;
 	};
 	class CTI_VEHICLES_AIR_CM {
 		title = $STR_CTI_VEHICLES_AIR_CM;
 		values[] = {0,1,2};
 		texts[] = {$STR_CTI_DISABLED,$STR_CTI_ENABLED_UPGRADE,$STR_CTI_ENABLED};
-		default = 1;
+		default = 2;
 	};
 	class CTI_MARKERS_INFANTRY {
 		title = $STR_CTI_MARKERS_INFANTRY;
@@ -251,7 +251,7 @@ class Params {
 		title = $STR_CTI_BUY_RESTRICT_LEADER;
 		values[] = {0,1};
 		texts[] = {$STR_CTI_DISABLED,$STR_CTI_ENABLED};
-		default = 0;
+		default = 1;
 	};
 	class CTI_GROUP_AWARD_MULT {
 		title = $STR_CTI_GROUP_AWARD_MULT;
@@ -270,7 +270,7 @@ class Params {
 		title = $STR_CTI_AI_TEAMS_GROUPSIZE;
 		values[] = {0,4,6,8,10,12,14,16};
 		texts[] = {"0","4","6","8","10","12","14","16"};
-		default = 8;
+		default = 10;
 	};
 
 	class CTI_PLAYERS_GROUPSIZE {
@@ -319,7 +319,7 @@ class Params {
 		title = $STR_CTI_GAMEPLAY_UAV_ALT;
 		values[] = {1000,1200,1500,1600,2000,3000,5000};
 		texts[] = {"UAV disconnection over 1000m","UAV disconnection over 1200m","UAV disconnection over 1500m","UAV disconnection over 1600m","UAV disconnection over 2000m","UAV disconnection over 3000m","UAV disconnection over 5000m"};
-		default = 5000;
+		default = 2000;
 	};
 	class CTI_GAMEPLAY_DARTER_FUEL {
 		title = $STR_CTI_GAMEPLAY_DARTER_FUEL;
@@ -337,7 +337,7 @@ class Params {
 		title = $STR_CTI_ECONOMY_BASE_PLAYER_INCOME;
 		values[] = {0,10,25,50,100,150,200,250};
 		texts[] = {"0$","10$","25$","50$","100$","150$","200$","250$"};
-		default = 10;
+		default = 50;
 	};
 	class CTI_VEHICLES_BOUNTY {
 		title = $STR_CTI_VEHICLES_BOUNTY;
@@ -373,13 +373,13 @@ class Params {
 		title = $STR_CTI_TOWNS_RESISTANCE_DETECTION_RANGE;
 		values[] = {300,500,800,1000,1200};
 		texts[] = {"300m","500m","800m","1000m","1200m"};
-		default = 800;
+		default = 500;
 	};
 	class CTI_TOWNS_RESISTANCE_GROUPS_RATIO {
 		title = $STR_CTI_TOWNS_RESISTANCE_GROUPS_RATIO;
 		values[] = {0,25,50,75,100};
 		texts[] = {"Null","Normal","Hard","Very hard","HELL"};
-		default = 75;
+		default = 50;
 	};
 	class CTI_TOWNS_RESISTANCE_INACTIVE_MAX {
 		title = $STR_CTI_TOWNS_RESISTANCE_INACTIVE_MAX;
@@ -429,7 +429,7 @@ class Params {
 		title = $STR_CTI_SM_BASEP_M;
 		values[] = {0,-1,2,5,10,20,50,100};
 		texts[] = {$STR_CTI_DISABLED,"Hard Protection","Dmg reduced by 2","Dmg reduced by 5","Dmg reduced by 10","Dmg reduced by 20","Dmg reduced by 50","Dmg reduced by 100"};
-		default = 10;
+		default = 50;
 	};
 
 	class CTI_SM_PATROLS {

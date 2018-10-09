@@ -200,5 +200,7 @@ _u = _u		+ ['O_Quadbike_01_F'];
 _u = _u		+ ['O_G_Offroad_01_F'];
 _u = _u		+ ['O_G_Offroad_01_armed_F'];
 _u = _u		+ ['O_G_Offroad_01_AT_F'];
+_u = _u		+ ['O_LSV_02_armed_F'];
+_u = _u		+ ['O_APC_Wheeled_02_rcws_v2_F'];
 
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_FTOWN], _u];

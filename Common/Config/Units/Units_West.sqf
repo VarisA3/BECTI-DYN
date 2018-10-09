@@ -314,7 +314,7 @@ _p = _p + [''];
 _n = _n + [''];
 _o = _o + [120];
 _t = _t + [5];
-_u = _u + [3];
+_u = _u + [2];
 _f = _f + [CTI_FACTORY_BARRACKS];
 _s = _s + [""];
 
@@ -323,7 +323,7 @@ _p = _p + [''];
 _n = _n + [''];
 _o = _o + [140];
 _t = _t + [5];
-_u = _u + [3];
+_u = _u + [2];
 _f = _f + [CTI_FACTORY_BARRACKS];
 _s = _s + [""];
 
@@ -619,10 +619,19 @@ _f = _f + [CTI_FACTORY_HEAVY];
 _s = _s + [""];
 
 
+_c = _c + ['B_T_APC_Tracked_01_AA_F'];
+_p = _p + [''];
+_n = _n + ['IFV-6h Cheetah H-type'];
+_o = _o + [4500];
+_t = _t + [30];
+_u = _u + [0];
+_f = _f + [CTI_FACTORY_HEAVY];
+_s = _s + [""];
+
 _c = _c + ['B_APC_Tracked_01_AA_F'];
 _p = _p + [''];
 _n = _n + [''];
-_o = _o + [6000];
+_o = _o + [7000];
 _t = _t + [30];
 _u = _u + [1];
 _f = _f + [CTI_FACTORY_HEAVY];
@@ -650,7 +659,7 @@ _s = _s + [""];
 _c = _c + ['B_Truck_01_Repair_F'];
 _p = _p + [''];
 _n = _n + [''];
-_o = _o + [1000];
+_o = _o + [900];
 _t = _t + [25];
 _u = _u + [0];
 _f = _f + [CTI_FACTORY_REPAIR];
@@ -701,11 +710,11 @@ _u = _u + [0];
 _f = _f + [CTI_FACTORY_REPAIR];
 _s = _s + ["service-fueltruck"];
 
-
+// ##Varis price 4000 -> 3000
 _c = _c + ['B_Truck_01_ammo_F'];
 _p = _p + [''];
 _n = _n + [''];
-_o = _o + [4000];
+_o = _o + [3000];
 _t = _t + [25];
 _u = _u + [0];
 _f = _f + [CTI_FACTORY_AMMO];
@@ -714,7 +723,7 @@ _s = _s + ["service-ammotruck"];
 _c = _c + ["B_Slingload_01_Ammo_F"];
 _p = _p + [''];
 _n = _n + [''];
-_o = _o + [3000];
+_o = _o + [2500];
 _t = _t + [25];
 _u = _u + [0];
 _f = _f + [CTI_FACTORY_AMMO];
@@ -726,7 +735,7 @@ _p = _p + [''];
 _n = _n + ['MQ-4A Greyhawk AA'];
 _o = _o + [17000];
 _t = _t + [35];
-_u = _u + [1];
+_u = _u + [2];
 _f = _f + [CTI_FACTORY_AIR];
 _s = _s + [""];
 
@@ -735,7 +744,7 @@ _p = _p + [''];
 _n = _n + ['MQ-4A Greyhawk Bombs'];
 _o = _o + [25000];
 _t = _t + [35];
-_u = _u + [1];
+_u = _u + [2];
 _f = _f + [CTI_FACTORY_AIR];
 _s = _s + [""];
 
@@ -744,7 +753,7 @@ _p = _p + [''];
 _n = _n + ['MQ-4A Greyhawk Dynamic - AT'];
 _o = _o + [35000];
 _t = _t + [35];
-_u = _u + [1];
+_u = _u + [2];
 _f = _f + [CTI_FACTORY_AIR];
 _s = _s + [""];
 
@@ -754,7 +763,7 @@ _p = _p + [''];
 _n = _n + [''];
 _o = _o + [50000];
 _t = _t + [35];
-_u = _u + [1];
+_u = _u + [4];
 _f = _f + [CTI_FACTORY_AIR];
 _s = _s + [""];
 
@@ -763,7 +772,7 @@ _p = _p + [''];
 _n = _n + [''];
 _o = _o + [25000];
 _t = _t + [35];
-_u = _u + [1];
+_u = _u + [2];
 _f = _f + [CTI_FACTORY_AIR];
 _s = _s + [""];
 
@@ -779,9 +788,9 @@ _s = _s + [""];
 _c = _c + ['C_Plane_Civil_01_F'];
 _p = _p + [''];
 _n = _n + [''];
-_o = _o + [4000];
+_o = _o + [5000];
 _t = _t + [35];
-_u = _u + [0];
+_u = _u + [1];
 _f = _f + [CTI_FACTORY_AIR];
 _s = _s + [""];
 
@@ -790,7 +799,7 @@ _p = _p + [''];
 _n = _n + [''];
 _o = _o + [6000];
 _t = _t + [40];
-_u = _u + [0];
+_u = _u + [1];
 _f = _f + [CTI_FACTORY_AIR];
 _s = _s + [""];
 
@@ -799,7 +808,7 @@ _p = _p + [''];
 _n = _n + [''];
 _o = _o + [4000];
 _t = _t + [40];
-_u = _u + [0];
+_u = _u + [1];
 _f = _f + [CTI_FACTORY_AIR];
 _s = _s + [""];
 
@@ -808,23 +817,23 @@ _p = _p + [''];
 _n = _n + [''];
 _o = _o + [10000];
 _t = _t + [40];
-_u = _u + [0];
+_u = _u + [1];
 _f = _f + [CTI_FACTORY_AIR];
 _s = _s + [""];
 
 _c = _c + ['B_T_VTOL_01_armed_F'];
 _p = _p + [''];
 _n = _n + [''];
-_o = _o + [15000];
+_o = _o + [7500];
 _t = _t + [40];
-_u = _u + [1];
+_u = _u + [3];
 _f = _f + [CTI_FACTORY_AIR];
 _s = _s + [""];
 
 _c = _c + ['B_Heli_Light_01_dynamicLoadout_F'];
 _p = _p + [''];
 _n = _n + [''];
-_o = _o + [6000];
+_o = _o + [5000];
 _t = _t + [30];
 _u = _u + [1];
 _f = _f + [CTI_FACTORY_AIR];
@@ -833,9 +842,9 @@ _s = _s + [""];
 _c = _c + ['B_Heli_Attack_01_dynamicLoadout_F'];
 _p = _p + [''];
 _n = _n + [''];
-_o = _o + [40000];
+_o = _o + [4000];
 _t = _t + [50];
-_u = _u + [1];
+_u = _u + [2];
 _f = _f + [CTI_FACTORY_AIR];
 _s = _s + [""];
 
@@ -844,7 +853,7 @@ _p = _p + [''];
 _n = _n + [''];
 _o = _o + [40000];
 _t = _t + [50];
-_u = _u + [1];
+_u = _u + [3];
 _f = _f + [CTI_FACTORY_AIR];
 _s = _s + [""];
 
@@ -853,7 +862,7 @@ _p = _p + [''];
 _n = _n + [''];
 _o = _o + [70000];
 _t = _t + [60];
-_u = _u + [1];
+_u = _u + [4];
 _f = _f + [CTI_FACTORY_AIR];
 _s = _s + [""];
 
